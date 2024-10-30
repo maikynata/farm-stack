@@ -1,0 +1,82 @@
+# OS generated files #
+######################
+.DS_Store
+Thumbs.db
+
+# Python
+######################
+*.py[cod]
+__pycache__/
+*.so
+*.egg-info/
+dist/
+build/
+
+# FastAPI - Virtual Environments and dependencies
+venv/
+env/
+*.env
+*.env.*
+
+# Logs and local database
+######################
+*.log
+*.sqlite3
+*.db
+
+# Coverage and testing files
+######################
+htmlcov/
+.tox/
+.nox/
+.coverage
+*.coverage
+.cache/
+.pytest_cache/
+coverage.xml
+
+# Migrations
+######################
+migrations/
+
+# MongoDB data (if storing locally for testing)
+######################
+dump/
+data/
+*.lock
+
+# Node modules (React frontend)
+######################
+frontend/node_modules/
+
+# Build artifacts (React frontend)
+######################
+frontend/build/
+frontend/.next/
+frontend/dist/
+frontend/out/
+frontend/.cache/
+
+# Logs and temporary files (React frontend)
+######################
+frontend/.eslintcache
+frontend/.parcel-cache
+frontend/.turbo
+frontend/coverage/
+
+# IDE and editor specific files
+######################
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore Yarn and npm debug files
+######################
+yarn-debug.log*
+yarn-error.log*
+npm-debug.log*
+
+# Ignore other sensitive files
+######################
+frontend/.env.local
